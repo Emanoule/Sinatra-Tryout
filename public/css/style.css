@@ -1,0 +1,29 @@
+/* line 1, /cygdrive/c/checkouts/CMS/public/css/sass/_reset.sass */
+html, body, h1, h2, h3, li, ol, ul, p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, sass/style.sass */
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #eeeeee;
+  padding: 5em;
+}
+
+/* line 17, sass/style.sass */
+nav {
+  margin: 0.3em 0;
+}
+/* line 21, sass/style.sass */
+nav > a {
+  margin: 0 0.3em;
+  padding: 0.3em 0.5em;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+/* line 33, sass/style.sass */
+nav > a:hover {
+  box-shadow: 0 0 5px 5px white;
+}

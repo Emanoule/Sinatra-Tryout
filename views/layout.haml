@@ -1,0 +1,21 @@
+!!!
+%html  
+  %head  
+    %title My Sinatra Website  
+    %link(rel="stylesheet" href="css/style.css") 
+    %link(href='http://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css')
+  %body  
+    .wrapper  
+      %header  
+        %h1 The CMS  
+        %h2 Easy Interface for Create and Editing Landingpages 
+      %nav
+        %a(href="/new")
+          Create New Landingpage
+        %a(href="/content")
+          Edit Content
+      %section.content  
+        =yield
+      %footer  
+        %p  
+          This is the footer.  
